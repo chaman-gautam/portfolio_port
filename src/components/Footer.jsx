@@ -41,11 +41,10 @@ const Footer = ({ scrollToSection }) => {
               transition={{ type: "spring", stiffness: 200 }}
             />
             <p>
-              <Link
-                to="https://port.infinityfreeapp.com/admin.php"
-                className="text-gray-400 hover:text-white transition text-sm sm:text-base"
-              >
-                Admin
+              <Link to="https://port.infinityfreeapp.com/admin.php">
+                <h2 className="text-gray-400 hover:text-white transition text-sm sm:text-base">
+                  https://chaman-gautam.github.io/portfolio_port/
+                </h2>
               </Link>
             </p>
             <h3 className="text-xl font-semibold">Chaman Gautam</h3>
