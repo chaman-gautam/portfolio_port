@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   FaFacebook,
   FaInstagram,
@@ -140,6 +141,14 @@ const Footer = ({ scrollToSection }) => {
                     </motion.li>
                   )
                 )}
+                <li>
+                  <Link
+                    to="https://port.infinityfreeapp.com/admin.php"
+                    className="text-gray-400 hover:text-white transition text-sm sm:text-base"
+                  >
+                    Admin
+                  </Link>
+                </li>
               </ul>
             </motion.div>
           </div>
