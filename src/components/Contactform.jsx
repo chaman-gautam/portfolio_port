@@ -21,7 +21,7 @@ export default function Contactform() {
 
     try {
       const res = await axios.post(
-        "http://localhost/backend/contact.php",
+        "https://port.infinityfreeapp.com/contact.php",
         formData,
         { headers: { "Content-Type": "application/json" } }
       );
