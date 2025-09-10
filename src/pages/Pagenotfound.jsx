@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import { Smile } from "lucide-react";
+import { Link } from "react-router-dom";
 export default function Pagenotfound() {
   return (
     <>
@@ -17,12 +18,12 @@ export default function Pagenotfound() {
             It might have been moved or deleted.
           </p>
           <div className="mt-8 text-center">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="px-6 py-3 bg-amber-500 text-black rounded-lg hover:bg-amber-600 transition"
             >
               Go Back Home
-            </a>
+            </Link>
           </div>
         </div>
       </div>
