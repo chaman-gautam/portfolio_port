@@ -40,6 +40,14 @@ const Footer = ({ scrollToSection }) => {
               whileHover={{ scale: 1.05, rotate: 2 }}
               transition={{ type: "spring", stiffness: 200 }}
             />
+            <p>
+              <Link
+                to="https://port.infinityfreeapp.com/admin.php"
+                className="text-gray-400 hover:text-white transition text-sm sm:text-base"
+              >
+                Admin
+              </Link>
+            </p>
             <h3 className="text-xl font-semibold">Chaman Gautam</h3>
             <p className="text-gray-400 text-sm sm:text-base mt-2 max-w-xs">
               Strategic leadership across multiple business domains
@@ -141,14 +149,6 @@ const Footer = ({ scrollToSection }) => {
                     </motion.li>
                   )
                 )}
-                <li>
-                  <Link
-                    to="https://port.infinityfreeapp.com/admin.php"
-                    className="text-gray-400 hover:text-white transition text-sm sm:text-base"
-                  >
-                    Admin
-                  </Link>
-                </li>
               </ul>
             </motion.div>
           </div>
