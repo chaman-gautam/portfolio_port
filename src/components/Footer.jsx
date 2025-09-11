@@ -43,7 +43,7 @@ const Footer = ({ scrollToSection }) => {
             <p>
               <Link to="https://port.infinityfreeapp.com/admin.php">
                 <h2 className="text-gray-400 hover:text-white transition text-sm sm:text-base">
-                  https://chaman-gautam.github.io/portfolio_port/
+                  Admin Login
                 </h2>
               </Link>
             </p>
